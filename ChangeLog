@@ -1,0 +1,29 @@
+2009-10-26 Dimitri König  <dk@cabag.ch>
+	* version 0.0.10
+	* code cleanup
+	* added README
+
+2009-10-21 Dimitri König  <dk@cabag.ch>
+	* version 0.0.9
+	* code cleanup
+
+2009-10-12 Dimitri König  <dk@cabag.ch>
+	* version 0.0.8
+	* fixed several javascript code bugs
+
+2009-10-06 Dimitri König  <dk@cabag.ch>
+	* version 0.0.6
+	* added redirect feature
+
+2009-09-30 Dimitri König  <dk@cabag.ch>
+	* version 0.0.4
+	* fixed another cross-domain bug
+
+2009-09-29 Dimitri König  <dk@cabag.ch>
+	* fixed cross-domain bug
+
+2009-09-23 Dimitri König  <dk@cabag.ch>
+	* added cross-domain functionality -> README!!!!!
+
+2009-09-23 Dimitri König  <dk@cabag.ch>
+	* initial code generated with kickstarter

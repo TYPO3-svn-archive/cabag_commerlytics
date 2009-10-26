@@ -1,0 +1,8 @@
+# cat=basic; type=string; label=Googly Analytics Code
+gaCode = 
+
+# cat=basic; type=string; label=Shop Title
+shopName = 
+
+# cat=basic; type=int; label=If payment is on another site you need to redirect to a separate thank you page
+redirectSite = 0
