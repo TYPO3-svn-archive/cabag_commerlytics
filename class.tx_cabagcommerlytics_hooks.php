@@ -28,7 +28,10 @@ require_once(PATH_t3lib.'class.t3lib_div.php');
 class tx_cabagcommerlytics_hooks {
 
 	function postFinish($basket, $reference) {
-		$ext_conf = unserialize($GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['cabag_commerlytics']);
+		if(empty($GLOBALS['TSFE']->tmpl->setup['plugin.']['tx_cabagcommerlytics_pi1.'])) {
+			return;
+		}
+		$ext_conf = $GLOBALS['TSFE']->tmpl->setup['plugin.']['tx_cabagcommerlytics_pi1.'];
 		$trackingCode = $ext_conf['gaCode'];
 		if(empty($trackingCode)) {
 			return;

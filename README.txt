@@ -17,3 +17,5 @@ the general google analytics code must include the following code before any eco
 					pageTracker._setAllowHash(false);
 					pageTracker._setAllowLinker(true);
 					pageTracker._trackPageview();
+
+If you have several sites within a typo3 installation just take the typoscript out of the setup.txt and configure it for each site.
