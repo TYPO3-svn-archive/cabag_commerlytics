@@ -1,29 +1,65 @@
-2009-10-26 Dimitri König  <dk@cabag.ch>
-	* version 0.0.10
-	* code cleanup
-	* added README
+12.11.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.2.0
+	* fixed double order id bug
 
-2009-10-21 Dimitri König  <dk@cabag.ch>
-	* version 0.0.9
-	* code cleanup
+29.09.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.1.7
+	* fixed custom orderID bug
 
-2009-10-12 Dimitri König  <dk@cabag.ch>
-	* version 0.0.8
-	* fixed several javascript code bugs
+29.09.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.1.6
+	* fixed login bug
 
-2009-10-06 Dimitri König  <dk@cabag.ch>
-	* version 0.0.6
-	* added redirect feature
+17.09.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.1.5
+	* orderID can start from a specific number
 
-2009-09-30 Dimitri König  <dk@cabag.ch>
-	* version 0.0.4
-	* fixed another cross-domain bug
+03.09.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.1.4
+	* yellowpay returns via L paramter to localized order confirmation page
 
-2009-09-29 Dimitri König  <dk@cabag.ch>
-	* fixed cross-domain bug
+02.09.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.1.3
+	* fixed comment umlauts and special chars problem
 
-2009-09-23 Dimitri König  <dk@cabag.ch>
-	* added cross-domain functionality -> README!!!!!
+13.08.2009 - Dimitri Koenig <dk@cabag.ch>
+	* Version 1.1.2
+	* fixed umlauts problem
 
-2009-09-23 Dimitri König  <dk@cabag.ch>
-	* initial code generated with kickstarter
+21.07.2009 - Dimitri Koenig <dk@cabag.ch>
+	* outsourced the comment into session to keep the url short
+
+17.07.2009 - Dimitri Koenig <dk@cabag.ch>
+	* included SHA1 encryption and verification
+	* added paymentserver postsale verification
+
+15.07.2009 - Dimitri Koenig <dk@cabag.ch>
+	* included generateOrderId hook
+	* updated finishingFunction to set the yellowpay orderID
+	* changed yellowpayTPPID -> no URL but PID of the yellowpay template
+
+16.01.2009 - Cedric Spindler <cs@cabag.ch>
+	* Version 1.0.1
+	* added option yellowpayTPURL to ext_conf_template.txt. The URL
+	  of the dynamic template for the payment gateway can be specified.
+
+16.12.2008 - Cedric Spindler <cs@cabag.ch>
+	* Version 1.0.0
+	* Updated manual
+	* TER Upload.
+	
+15.12.2008 - Cedric Spindler <cs@cabag.ch>
+	* Version 0.0.2
+	* the extension now uses currency / language settings from 
+		TypoScript settings.
+	* added extension icon
+	
+28.11.2008 - Cedric Spindler <cs@cabag.ch>
+	* Version 0.0.1
+	* implemented request handling with the yellowpay payment gateway
+	* added ext_conf_template.txt for configuration
+	
+30.10.2008 - Cedric Spindler <cs@cabag.ch>
+	* Initial release - Version 0.0.0
+	* Defined the steps for the orderprocess
+	* TODO: develop the request handling for communication with yellowpay

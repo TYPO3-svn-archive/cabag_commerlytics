@@ -1,9 +1,9 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext: "cabag_commerlytics"
+# Extension Manager/Repository config file for ext: "yellowpay2commerce"
 #
-# Auto generated 29-10-2009 09:34
+# Auto generated 07-10-2009 15:36
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -11,25 +11,25 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'CAB AG Commerce Google Analytics Tracking',
-	'description' => 'Tracking of Orders for Google Analytics Ecommerce',
-	'category' => 'fe',
-	'author' => 'Dimitri König',
+	'title' => 'yellowpay2commerce',
+	'description' => 'Provides the yellowpay payment provider for use with tx_commerce',
+	'category' => 'misc',
+	'author' => 'Dimitri König / Cedric Spindler',
 	'author_email' => 'dk@cabag.ch',
+	'author_company' => 'cab services ag',
 	'shy' => '',
 	'dependencies' => 'commerce',
 	'conflicts' => '',
 	'priority' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
-	'author_company' => '',
-	'version' => '0.1.1',
+	'version' => '1.2.0',
 	'constraints' => array(
 		'depends' => array(
 			'commerce' => '',
@@ -39,7 +39,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:11:{s:12:"#Untitled-2#";s:4:"8105";s:9:"ChangeLog";s:4:"931a";s:10:"README.txt";s:4:"4f9b";s:36:"class.tx_cabagcommerlytics_hooks.php";s:4:"0f04";s:21:"ext_conf_template.txt";s:4:"770a";s:12:"ext_icon.gif";s:4:"1bdc";s:17:"ext_localconf.php";s:4:"1f63";s:14:"ext_tables.php";s:4:"5383";s:38:"pi1/class.tx_cabagcommerlytics_pi1.php";s:4:"c0ed";s:19:"doc/wizard_form.dat";s:4:"1ad5";s:20:"doc/wizard_form.html";s:4:"947b";}',
+	'_md5_values_when_last_written' => 'a:14:{s:12:"#Untitled-3#";s:4:"3fce";s:9:"ChangeLog";s:4:"bf62";s:10:"README.txt";s:4:"03fc";s:31:"class.tx_yellowpay2commerce.php";s:4:"9b11";s:37:"class.tx_yellowpay2commerce_hooks.php";s:4:"ca34";s:21:"ext_conf_template.txt";s:4:"08dd";s:12:"ext_icon.gif";s:4:"0e5d";s:17:"ext_localconf.php";s:4:"03da";s:12:"fe_index.php";s:4:"497a";s:14:"doc/manual.sxw";s:4:"227e";s:19:"doc/postfinance.jpg";s:4:"838e";s:19:"doc/wizard_form.dat";s:4:"902c";s:20:"doc/wizard_form.html";s:4:"13e2";s:39:"sv1/class.tx_yellowpay2commerce_sv1.php";s:4:"6735";}',
 	'suggests' => array(
 	),
 );
